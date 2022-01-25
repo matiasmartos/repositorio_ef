@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'AppBook',
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'ProyectoFinal1.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["C:/Users/Usuario/Desktop/Coderhouse/python-course/ProyectoFinal/mi_repositorio/ProyectoFinal1/AppBook/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
